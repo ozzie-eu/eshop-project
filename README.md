@@ -1,6 +1,9 @@
-# EshopProject
+# eShop Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+
+It's a possible implementatiopn of the steps on my eBook, [Quick and Free eShop Project](https://leanpub.com/freeonlineshop). This eBook directs you to the tools you need for a quick eShop implementation, using only free resources on the Web and free tier cloud services. 
+You will use Bootstrap and Angular to create the web site, Google Sheets+API to manage your catalog, Firebase for web hosting and, finally, Amazon Affiliate links program to get your business going.
 
 ## Development server
 
