@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-section',
@@ -8,14 +9,10 @@ import { HttpClient } from "@angular/common/http";
 })
 export class SectionComponent implements OnInit {
 
-  sheetId ="[YOUR GOOGLE SHEET ID]";
-  cellRange="Product!A2%3AE4"; //must match the correct range on your product table
-  apiKey = "[YOUR GOOGLE API KEY]";
-
   apiUrl = "https://sheets.googleapis.com/v4/spreadsheets/"
-          +this.sheetId
-          +"/values/"+this.cellRange
-          +"?key="+this.apiKey;
+          +environment.sheetId
+          +"/values/"+environment.cellRange
+          +"?key="+environment.apiKey;
 
   public data:any = []
 
