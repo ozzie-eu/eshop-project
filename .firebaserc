@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-eshop-hosting": {
+      "hosting": {
+        "eshop-project": [
+          "my-eshop-hosting"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-eshop-hosting"
+  }
+}
